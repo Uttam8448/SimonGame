@@ -1,0 +1,37 @@
+body{
+    text-align:center;
+    background-color: black;
+    color:white;
+    font-family: Montserrat;
+}
+.btn{
+    height:250px;
+    width:250px;
+    border-radius: 20%;
+    margin-bottom: 50px;
+    border:5px solid gray;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.red{
+    background-color: #d95980;
+}
+.purple{
+    background-color: #849ff9;
+}
+.green{
+    background-color: #63aac0;
+}
+.flash{
+    background-color: #fff;
+}
+.userflash{
+    background-color: limegreen;
+}
