@@ -8,7 +8,7 @@ let level = 0;
 let h2= document.querySelector('h2');
 let high=document.querySelector('#highscore');
 high.innerText=`Highest Score : ${highScore}`;
-document.addEventListener('keypress',function(){
+document.addEventListener('click',function(){
     if(!started){
         console.log('Game Started');
         started=true;
