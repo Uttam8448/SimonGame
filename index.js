@@ -67,7 +67,7 @@ function checkAns(idx) {
     }
     else{
         h2.innerText = `Game Over! Your score was ${(level-1)}
-                        Press any key to start.`;
+                        Press key to start again.`;
         document.querySelector("body").style.backgroundColor = 'red';
         setTimeout(function(){
             document.querySelector("body").style.backgroundColor = 'black';
