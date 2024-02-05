@@ -4,7 +4,7 @@ let highScore=0;
 let btns = ["yellow","red","purple","green"]
 let started = false;
 let level = 0;
-let startkey = document.querySelector('#startKey');
+let startkey = document.querySelector('#Startbutton');
 
 let h2= document.querySelector('h2');
 let high=document.querySelector('#highscore');
