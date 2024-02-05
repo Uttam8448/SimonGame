@@ -4,11 +4,12 @@ let highScore=0;
 let btns = ["yellow","red","purple","green"]
 let started = false;
 let level = 0;
+let startkey = document.querySelector('#startKey');
 
 let h2= document.querySelector('h2');
 let high=document.querySelector('#highscore');
 high.innerText=`Highest Score : ${highScore}`;
-document.addEventListener('keypress',function(){
+startkey.addEventListener('click',function(){
     if(!started){
         console.log('Game Started');
         started=true;
